@@ -27,7 +27,7 @@ cd wordpress
 cp -rf . ..
 #move back to parent dir
 cd ..
-#remove files from wordpress folder
+#remove files from wordpress folders
 rm -R wordpress
 #create wp config
 cp wp-config-sample.php wp-config.php
