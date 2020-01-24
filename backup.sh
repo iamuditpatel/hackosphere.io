@@ -17,5 +17,5 @@ cd $TMPBACKUP
 #Archive the directory
 tar -zcf "$SITE-$(date '+%Y-%m-%d').tar.gz" $BACKUPDIR
 
-# upload to google drive and delete the source file
+# upload to google drive and delete the source files
 drive upload "$SITE-$(date '+%Y-%m-%d').tar.gz" --parent $ID --delete
