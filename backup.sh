@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 #Our temporary backups will be arhived in this folder
 TMPBACKUP='/root/tmp/'
